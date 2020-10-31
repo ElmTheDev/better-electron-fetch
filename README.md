@@ -1,2 +1,2 @@
 # better-electron-fetch
-electron-fetch but with proxy support resembling Request module more
+Credits to https://github.com/arantes555/electron-fetch
