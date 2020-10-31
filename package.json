@@ -1,0 +1,27 @@
+{
+  "name": "better-electron-fetch",
+  "version": "1.0.0",
+  "description": "Credits to https://github.com/arantes555/electron-fetch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElmTheDev/better-electron-fetch.git"
+  },
+  "author": "Elm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElmTheDev/better-electron-fetch/issues"
+  },
+  "homepage": "https://github.com/ElmTheDev/better-electron-fetch#readme",
+  "dependencies": {
+    "encoding": "^0.1.13",
+    "node-fetch": "^2.6.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
