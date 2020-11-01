@@ -1,13 +1,18 @@
 const Request = require('./lib/index');
 
 (async () => {
-    const response = await Request('http://httpbin.org/post', {
+    const sess = Request.jar()
+    const response = await Request('http://rattenfanger.io', {
             method: 'POST',
             body: 'hello=true',
             headers: {
                 'user-agent': 'better electron fetch'
             },
-            timeout: 1
+            jar: sess,
+            proxy: 'http://127.0.0.1:8888',
+            followAllRedirects: false,
         });
-        console.log(await response.json())
+
+        console.log(response)
+        //console.log(await response.json())
 })();
