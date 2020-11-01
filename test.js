@@ -9,10 +9,10 @@ const Request = require('./lib/index');
                 'user-agent': 'better electron fetch'
             },
             jar: sess,
-            proxy: 'http://127.0.0.1:8888',
+           // proxy: 'http://127.0.0.1:8888',
             followAllRedirects: false,
         });
 
-        console.log(response)
+        console.log(await response.text(), response.status)
         //console.log(await response.json())
 })();
