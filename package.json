@@ -1,6 +1,6 @@
 {
   "name": "better-electron-fetch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Credits to https://github.com/arantes555/electron-fetch",
   "main": "index.js",
   "scripts": {
